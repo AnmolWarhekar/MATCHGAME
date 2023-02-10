@@ -1,0 +1,26 @@
+.tab-item-container {
+  list-style: none;
+}
+
+.tab-btn {
+  color: #ffffff;
+  font-size: 19px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    font-size: 28px;
+  }
+}
+
+.active-tab-btn {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+}
